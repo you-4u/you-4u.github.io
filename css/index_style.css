@@ -1,20 +1,18 @@
 @font-face {
   font-family: SF;
-  src: url('/templates/San Francisco.ttf') format("truetype");
+  src: url('/media/San Francisco.ttf') format("truetype");
 }
 
 * {
     font-family: "SF", Helvetica, sans-serif;
-    font-size: 30px;
-
+    
 }
 
 body {
     background-color: grey;
     color: white;
+    font-size: 30px;
 }
-
-p {}
 
 h1 {
     color: powderblue;
