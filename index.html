@@ -12,14 +12,66 @@
 	    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 	    crossorigin="anonymous">
 	</script>
-	<script> 
+	<script>
 		$(function(){
-		  $("#header").load("header.html"); 
-		  $("#footer").load("footer.html"); 
+		  $("#header").load("header.html");
+		  $("#footer").load("footer.html");
 		});
 	</script>
 </head>
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="home" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="{% static 'media/icon.png' %}" />
+    <title>By You; For You Headphones</title>
+    	<link rel="stylesheet" href="{% static 'css/footer_style.css' %}">
+    	<link rel="stylesheet" href="{% static 'css/header_style.css' %}">
+    	<link rel="stylesheet" href="{% static 'css/index_style.css' %}">
+
+    <script
+	    src="https://code.jquery.com/jquery-3.3.1.js"
+	    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	    crossorigin="anonymous">
+	</script>
+
+	<script>
+		$(function(){
+		  $("#header").load("header.html");
+		  $("#footer").load("footer.html");
+		});
+	</script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border">Welcome to the Official Site</span>
+        </div>
+    </div>
+
+    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+        <h3 style="text-align:center;">Product Demo</h3>
+        <p>
+            POWERFUL SOUND. <br>
+            WORLD-CLASS HEADPHONES. <br>
+            With superior sound and unmatched comfort, our over-ear headphones are designed for performance.
+            They deliver better sound for your music, so you can get lost in it.
+        </p>
+    </div>
+
+    <div class="bgimg-2">
+        <div class="caption">
+            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">A PASSION FOR THE FUTURE</span>
+        </div>
+    </div>
+
+	<div id="footer" style="clear: both; background-color:black;"></div>
+</body>
+
+<!--
 <body>
 	<div id="header"></div>
 
@@ -32,3 +84,4 @@
 
 	<div id="footer" style="clear: both; margin-top:20px;"></div>
 </body>
+-->
