@@ -1,6 +1,6 @@
 @font-face {
   font-family: SF;
-  src: url('/static/media/San Francisco.ttf') format("truetype");
+  src: url('../media/San Francisco.ttf') format("truetype");
 }
 
 * {
@@ -28,7 +28,7 @@ h1 {
     color: powderblue;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -38,38 +38,38 @@ h1 {
 }
 
 .bgimg-1 {
-    background-image: url("/static/media/headphones-with-waves.gif");
+    background-image: url("../media/headphones-with-waves.gif");
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("/static/media/sound-waves.jpg");
+    background-image: url("../media/sound-waves.jpg");
     min-height: 200px;
 }
 
 .bgimg-3 {
-    background-image: url("/static/media/beach.jpg");
+    background-image: url("../media/beach.jpg");
     min-height: 400px;
 }
 
 .bgimg-4 {
-    background-image: url("/static/media/pencil-paper.jpg");
+    background-image: url("../media/pencil-paper.jpg");
     min-height: 100%;
 }
 
 .bgimg-5 {
-    background-image: url("/static/media/environment.jpg");
+    background-image: url("../media/yellow-lines.jpg");
     min-height: 400px;
 }
 
 .bgimg-6 {
-    background-image: url("/static/media/environment.jpg");
+    background-image: url("../media/environment.jpg");
     min-height: 100%;
 }
 
 .bgimg-7 {
-    background-image: url("/static/media/environment.jpg");
-    min-height: 100px;
+    background-image: url("../media/wavy-lines.jpg");
+    min-height: 90%;
 }
 
 .caption {
