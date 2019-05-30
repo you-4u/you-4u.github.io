@@ -34,7 +34,7 @@ td {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("static/media/clouds.gif");
+    background-image: url("../media/clouds.gif");
     min-height: 100%;
 }
 
