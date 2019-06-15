@@ -18,17 +18,47 @@
 		  $("#footer").load("footer.html");
 		});
 	</script>
+
+    <!--Styling for Buy button-->
+    <style>
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+        }
+
+        button:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    </style>
+
+    <!--SnipCart script and style-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="NTM1MzdhYTQtMmE2MC00YWM1LTgxYmUtNDlkNjU2Y2E2MDRlNjM2OTYxNjM4NjA4Nzg3MTk3" id="snipcart"></script>
+    <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
     <div id="header"></div>
 
+    <!--Background of green plant-->
     <div class="bgimg-6">
         <div class="caption">
             <span class="border" style="background-color:transparent;font-size:25px;color: black;">QUESTIONS?</span>
         </div>
     </div>
 
+    <!--Static block after plant-->
     <div style="color: #777;background-color:white;padding:50px 80px;text-align: left;">
         <h3 style="text-align:center;color: #727272">Product Launch</h3>
         <p style="float: left;">
@@ -38,6 +68,16 @@
         <p style="clear: both;">
             We will be releasing this in the very near future; just hang in there with us.
         </p>
+        <button
+        class="snipcart-add-item"
+        data-item-id="1"
+        data-item-name="Headphones Prototype"
+        data-item-price="300.00"
+        data-item-weight="1000"
+        data-item-url="http://myapp.com/products/headphones"
+        data-item-description="Some fresh bacon">
+        Place your order now
+        </button>
     </div>
 
     <div class="bgimg-7"></div>
